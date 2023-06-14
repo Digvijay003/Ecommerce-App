@@ -1,0 +1,31 @@
+[
+{
+    "id":1,
+    "name":"Car",
+    "price":9.99,
+    "imgUrl":"../../public/images/car.jpeg"
+    
+
+},
+{
+    "id": 2,
+    "name": "Flat",
+    "price": 19,
+    "imgUrl":"../../public/images/flat.jpeg"
+
+},
+{
+    "id": 3,
+    "name": "House",
+    "price": 12.05,
+    "imgUrl":"../../public/images/house.jpeg"
+
+},
+{
+    "id": 4,
+    "name": "Laptop",
+    "price": 6,
+    "imgUrl":"../../public/images/laptop.jpeg"
+
+}
+]
