@@ -1,0 +1,12 @@
+[build]
+  publish = "dist"  # This is the directory Netlify will deploy
+  functions = "functions"  # Optional: If you have serverless functions
+  command = "npm run build"  # Replace with your build command
+
+[build.environment]
+  # Optional: Set environment variables if needed
+
+# Specify the asset directory (the folder containing your images)
+[build.headers]
+  - for = "public/images/*"
+    headers = { Cache-Control = "dist, max-age=31536000, immutable" }
