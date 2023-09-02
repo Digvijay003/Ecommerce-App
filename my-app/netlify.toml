@@ -9,4 +9,4 @@
 # Specify the asset directory (the folder containing your images)
 [build.headers]
   - for = "public/images/*"
-    headers = { Cache-Control = "dist, max-age=31536000, immutable" }
+    headers = { Cache-Control = "public, max-age=31536000, immutable" }
